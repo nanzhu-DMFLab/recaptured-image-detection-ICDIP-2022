@@ -10,6 +10,18 @@ An open source code for paper "Identifying Recaptured Images Using Deep Correlat
 * Pillow 8.3.1
 
 
+## Data Path
+* Train:
+  ./data/train_image/NI
+  ./data/train_image/RI
+* validation:
+  ./data/val_image/NI
+  ./data/val_image/RI
+* Test:
+  ./data/test_image/NI
+  ./data/test_image/RI
+
+
 ## Run
 * Training: Set parameters in 'train.py' or at the command line.
 ```python
